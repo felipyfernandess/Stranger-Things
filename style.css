@@ -35,9 +35,12 @@ button{
 }
 
 .bgMonstro{
+    background-color: #0C0102;
     background-image: url(imagens/bg-sec2.webp);
     background-position: center;
     background-size: cover;
+    position: relative;
+    z-index: 2;
 }
 
 ul{
@@ -137,6 +140,7 @@ h2{
 .secaoCidade{
     flex-direction: column;
     padding-top: 4vw;
+    position: relative;
 
     .titulo{
         display: flex;
