@@ -41,7 +41,7 @@ function animarPagina (){
         opacity: 0,
         filter: 'blur(10px)',
         x: 40,
-        duration: 1,
+        duration: 3,
         stagger: .5, // animar um por vez (aparecer 1 por 1)
         scrollTrigger: { // sincronizar com a rolagem
             trigger: '.secaoObrigado ul', // referência de início
